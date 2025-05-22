@@ -79,7 +79,7 @@ def automatedfishing():
             checkforbubbles()
 
 def startscript():
-    kb.wait(';')                                                        # START HOTKEY
+    kb.wait('*')                                                        # START HOTKEY
     ag.click(button='left')
     checkforbubbles()
 
